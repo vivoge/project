@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-file-include": "^1.0.0",
+    "gulp-sequence": "^0.4.6",
+    "jquery": "^1.9.1",
+    "jquery-mobile": "^1.4.1"
+  }
+}
