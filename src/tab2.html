@@ -1,0 +1,27 @@
+<ion-view view-title="tab2">
+    <ion-nav-buttons side="left">
+        <button class="button" ng-click="aa()">
+            navbar!
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button" ng-click="aa()">
+            navbar!
+        </button>
+    </ion-nav-buttons>
+
+
+    <ion-content>
+        <ion-list show-delete ="flag.showDelete" show-reorder="flag.showReorder">
+            <ion-item class="item-dark">
+                <a class="button button-positive" href="#/tab/content/9999">11</a>
+
+            </ion-item>
+             <ion-item>
+                 22
+                 <ion-delete-button class="ion-minus-circled" ng-click="deleteItem()"></ion-delete-button>
+
+             </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

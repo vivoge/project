@@ -17,5 +17,8 @@
     "gulp-sequence": "^0.4.6",
     "jquery": "^1.9.1",
     "jquery-mobile": "^1.4.1"
+  },
+  "dependencies": {
+    "ionic": "^2.2.2"
   }
 }

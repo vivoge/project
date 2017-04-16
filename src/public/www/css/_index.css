@@ -1,11 +1,3 @@
-.index_p{
-
-    text-align-last: justify;
-    text-indent: 20px;
-}
-
-.index_p:after{
-
-    text-align-last: justify;
-
+.alc{
+    text-align:center;
 }

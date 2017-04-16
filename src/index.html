@@ -1,37 +1,41 @@
 @@include('./include/_ConfigTop.html')
 
-<div data-role="container">
+@@include('./include/_ionicCss.html')
+@@include('./include/_nav.html')
 
-    <div data-role="header">
-        <a href="" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-arrow-l ui-shadow ui-nodisc-icon ui-alt-icon ui-corner-all">返回</a>
-        <h1>牛逼的测试页</h1>
-        <a href="#mypop" data-rel="popup" class="ui-btn ui-btn-right ui-btn-icon-left ui-icon-grid ui-shadow ui-nodisc-icon ui-alt-icon ui-corner-all">菜单</a>
-    </div>
-    <div data-role="content">
-        <p class="index_p" >2017年IT领袖峰会4月1日-2日在深圳召开，马云、马化腾、李彦宏齐聚，BAT三巨头再聚首。在高端对话环节，腾讯创始人、董事长兼CEO马化腾对目前火热的人工智能发表了看法，他认为，在人工智能方面，腾讯目前落后于百度。</p>
-        <p style="text-indent: 20px">马化腾表示，在人工智能方向，腾讯相比百度还是落后。不过，他也强调，目前腾讯的各个事业部内部，都已经有相关的研究和发展。</p>
-        <p style="text-indent: 20px">马化腾称，腾讯作为一家做社交的公司，微信里有大量人脸数据，每天的人脸图片高达10亿张。腾讯正在对这些数据进行基础性研究，包括后台数据分析等。</p>
 
-    </div>
+<ion-nav-bar align-title="center" class="bar-positive">
 
-    <div class="ui-content" data-position-to="window" data-role="popup" id="mypop">
-        <a href="" data-rel="back" class="ui-btn ui-btn-right ui-corner-all ui-nodisc-icon ui-btn-icon-notext ui-icon-delete ui-alt-icon">关闭</a>
-        2017年IT领袖峰会4月1日-2日在深圳召开，马云、马化腾、李彦宏齐聚，BAT三巨头再聚首。在高端对话环节，腾讯创始人、董事长兼CEO马化腾对目前火热的人工智能发表了看法，他认为，在人工智能方面，腾讯目前落后于百度。
-        马化腾表示，在人工智能方向，腾讯相比百度还是落后。不过，他也强调，目前腾讯的各个事业部内部，都已经有相关的研究和发展。
-        马化腾称，腾讯作为一家做社交的公司，微信里有大量人脸数据，每天的人脸图片高达10亿张。腾讯正在对这些数据进行基础性研究，包括后台数据分析等，都用到了人工智能的技术，在前端也做出了一些产品。
-        李彦宏表示，做搜索的基因让百度很早就投入深度学习。在他看来，人工智能比2013年百度进入时是更大的产业，互联网只是开胃菜，人工智能才是主菜，堪比工业革命。
-    </div>
-    <div data-role="footer">
-        <h1>页脚</h1>
-    </div>
+    <!-- 头 -->
+    <ion-nav-back-button></ion-nav-back-button>
 
-</div>
 
+</ion-nav-bar>
+
+
+<ion-nav-view>
+    <!-- 模板区 -->
+</ion-nav-view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@@include('./include/_ionicJs.html')
 
 @@include('./include/_ConfigBottom.html')
-
-
-
-
-
-
