@@ -2,7 +2,7 @@ var app = angular.module('myApp',['ionic','myApp.controller']);
 
 app.config(function($stateProvider,$ionicConfigProvider,$urlRouterProvider){
   $stateProvider
-      .state('home',{
+  .state('home',{
           url:'/home',
           templateUrl:'../../home.html'
       })
@@ -52,7 +52,7 @@ app.config(function($stateProvider,$ionicConfigProvider,$urlRouterProvider){
 
       });
 
-  $urlRouterProvider.otherwise('/tab/tab2');
+  $urlRouterProvider.otherwise('/tab/tab1');
 
   $ionicConfigProvider.tabs.position('bottom');
   $ionicConfigProvider.tabs.style("standard");

@@ -1,4 +1,11 @@
-<ion-view view-title="{{::title}}">
+<ion-view view-title="tab1">
+    <ion-nav-buttons side="left">
+        <button class="button" ng-click="openModal()">
+            模态
+        </button>
+    </ion-nav-buttons>
+
+
        <ion-content>
            <ion-list>
                <ion-item>11</ion-item>
@@ -9,4 +16,22 @@
                <ion-item>11</ion-item>
            </ion-list>
        </ion-content>
+
+
+    <script type="text/ng-template" id="zstd.html">
+        <ion-modal-view>
+            <ion-header-bar class="bar-positive">
+                <button class="button button-positive" ng-click="hideModal()">消失</button>
+                <h1 class="title">My Modal title</h1>
+            </ion-header-bar>
+            <ion-content>
+                Hello!
+            </ion-content>
+        </ion-modal-view>
+    </script>
+
 </ion-view>
+
+
+
+

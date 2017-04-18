@@ -1,7 +1,23 @@
 angular.module('myApp.controller',[])
 
-.controller('tab1Control',function ($scope) {
-    $scope.title = (Math.random()*(9-8)+8).toFixed(2)
+.controller('tab1Control',function ($scope,$ionicModal) {
+    $scope.title = 'tab1';
+
+    $ionicModal.fromTemplateUrl('zstd.html',{
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
+
+    $scope.openModal = function() {
+        $scope.modal.show();
+    };
+
+    $scope.hideModal = function() {
+        $scope.modal.hide();
+    };
+
 })
 
 .controller('tab2Control',function ($scope,$stateParams) {

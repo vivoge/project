@@ -19,6 +19,6 @@
     "jquery-mobile": "^1.4.1"
   },
   "dependencies": {
-    "ionic": "^2.2.2"
+    "gulp": "^3.9.1"
   }
 }
